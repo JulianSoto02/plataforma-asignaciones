@@ -58,7 +58,7 @@ function App() {
               <AdminLayout />
             </ProtectedRoute>
           }>
-            <Route index element={<Navigate to="/admin/asignaturas\" replace />} />
+            <Route index element={<Navigate to="/admin/asignaturas" replace />} />
             <Route path="asignaturas" element={<GestionAsignaturas />} />
             <Route path="docentes" element={<GestionDocentes />} />
             <Route path="asignaciones" element={<GestionAsignaciones />} />
